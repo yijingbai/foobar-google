@@ -1,4 +1,4 @@
-# foobar:~/access_codes yanguo4$ cat readme.txt 
+# foobar:~/access_codes USER$ cat readme.txt 
 # Access codes
 # ============
 
@@ -32,12 +32,12 @@
 #     (int) 5
 
 # Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
-# foobar:~/access_codes yanguo4$ ls
+# foobar:~/access_codes USER$ ls
 # readme.txt
 # constraints.txt
 # solution.py
 # solution.java
-# foobar:~/access_codes yanguo4$ cat constraints.txt 
+# foobar:~/access_codes USER$ cat constraints.txt 
 # Java
 # ====
 
@@ -60,6 +60,9 @@ def answer(x):
         if s not in keeper and s[::-1] not in keeper:
             keeper.add(s)
     return len(keeper)
+
+# Invite a friend to try a challenge. Send link below. It will only work once.
+# https://goo.gl/Sl3xaX
 
 def test():
     x1 = ["foo", "bar", "oof", "bar"]
